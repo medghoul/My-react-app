@@ -1,0 +1,71 @@
+.items {
+  width: 300px;
+  margin: 10px 50px;
+  background: #fffffe;
+  border-top: 0px solid white;
+}
+
+.items-body-content {
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 25px;
+  color: #FB4264;
+  text-shadow: 0 0 1vw #fa8016, 0 0 1vw #fa8016, 0 0 2vw #fa8016, 0 0 2vw #fa8016, 0 0 .2vw #FED128, .2vw .2vw .1vw #806914;
+    color: #51430f;
+}
+
+
+.items-body-content:hover {
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.left-half {
+  
+  background:white;
+  float: left;
+}
+.right-half {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  background:white;
+
+}
+h1{
+  border-top: 10px solid white;
+  padding: 5px 20px;
+  margin: 30px;
+  font-size: 40px;
+  text-shadow: 0 0 5px #faa300, 0 0 15px #faa300, 0 0 20px #faa300, 0 0 40px #faa300, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #8a2b06;
+  font-family: fantasy;
+  text-align:justify;
+  animation: blink 8s infinite;
+  -webkit-animation: blink 8s infinite;
+  
+}
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #faa300, 0 0 15px #faa300, 0 0 20px #faa300, 0 0 40px #faa300, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #8a2b06;
+  }
+}

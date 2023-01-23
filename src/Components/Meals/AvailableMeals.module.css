@@ -1,0 +1,36 @@
+.AvailableMealsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.AvailableMealsUl {
+    font-family: speedeebold_regular,Arial,sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5; 
+    margin-bottom: 28px;
+    line-height: 30px;
+    display: inline-block; 
+    position: relative;
+}
+.navigationli{
+    text-decoration: none;
+    color: #404040;
+    line-height: 48px;
+    padding: 0 12px;
+    display: block;
+    transition: all .1s;
+    
+
+}
+.navigationliclicked{
+    text-decoration: none;
+    color: #404040;
+    line-height: 48px;
+    padding: 0 12px;
+    display: block;
+    transition: all .1s;
+    font-weight: 500; 
+
+}
